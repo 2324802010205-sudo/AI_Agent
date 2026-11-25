@@ -1,0 +1,5 @@
+{"event":"process_joined","time":"2026-11-18T16:07:56.9645436Z","pid":5400,"image":"C:\\Users\\ADMIN\\AgentScopeLab\\bin\\python\\python.exe","command_line":"C:\\Users\\ADMIN\\AgentScopeLab\\bin\\python\\python.exe -I -S -B C:\\Users\\ADMIN\\AgentScopeLab\\runs\\skill-format-24f1c13e4086\\format-check\\format_check.py"}
+{"event":"process_joined","time":"2026-11-18T16:07:56.9655441Z","pid":24096,"image":"C:\\Windows\\System32\\conhost.exe","command_line":"\\??\\C:\\Windows\\system32\\conhost.exe 0xffffffff -ForceV1"}
+{"event":"process_exited","time":"2026-11-18T16:07:57.0770646Z","pid":5400,"exit_code":0,"abnormal":false}
+{"event":"process_exited","time":"2026-11-18T16:07:57.0780655Z","pid":24096,"exit_code":0,"abnormal":false}
+{"event":"job_empty","time":"2026-11-18T16:07:57.0780655Z"}

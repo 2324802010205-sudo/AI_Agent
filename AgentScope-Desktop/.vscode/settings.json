@@ -1,0 +1,13 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.exclude": {
+    "node_modules": true,
+    "dist": true,
+    "src-tauri/target": true,
+    "src-tauri/gen": true,
+    "src-tauri/binaries/*.exe": true,
+    "artifacts": true,
+    "test-results": true,
+    "**/*.tsbuildinfo": true
+  }
+}

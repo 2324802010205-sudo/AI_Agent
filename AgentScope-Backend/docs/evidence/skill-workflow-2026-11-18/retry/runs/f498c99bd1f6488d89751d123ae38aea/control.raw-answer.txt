@@ -1,0 +1,27 @@
+### Kế hoạch thực hiện
+1. Tiếp nhận và tổng hợp dữ liệu bán hàng quan sát được từ bảng tính theo quy trình (`read_spreadsheet`, `analyze_spreadsheet`, `generate_report`).
+2. Tính toán tổng số đơn hàng, tổng doanh thu và tổng lợi nhuận trên toàn bộ 48 bản ghi đã ghi nhận.
+3. Xác nhận tên báo cáo đã tạo và đưa ra nhận xét kinh doanh từ dữ liệu.
+
+---
+
+### Kết quả tổng hợp
+- **Báo cáo do công cụ tạo:** `bao-cao-7148db00.xlsx`
+- **Tổng số đơn hàng:** 48 đơn hàng (bao gồm 38 đơn hoàn thành và 10 đơn đã hủy)
+- **Tổng doanh thu (VND):** 344.740.000 VND
+- **Tổng lợi nhuận (VND):** 95.980.000 VND
+- **Nhận xét kinh doanh:** Sản phẩm Laptop văn phòng chiếm tỷ trọng lớn nhất về cả doanh thu và lợi nhuận trong toàn bộ danh mục sản phẩm, trong khi các đơn hàng hủy (chiếm tỷ lệ 10/48 đơn) đều được ghi nhận doanh thu và lợi nhuận bằng 0.
+
+---
+
+TOOLS=read_spreadsheet, analyze_spreadsheet, generate_report
+ROWS=ALL
+RULE=RECORDED
+INCLUDED_ORDERS=48
+CONCLUSION=DESCRIPTIVE
+FINDING=Sản phẩm Laptop văn phòng mang lại doanh thu và lợi nhuận cao nhất trong danh mục, đồng thời có 10 trên 48 đơn hàng ở trạng thái hủy với giá trị ghi nhận bằng 0.
+{
+  "orders": 48,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000
+}

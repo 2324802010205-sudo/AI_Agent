@@ -1,0 +1,2 @@
+# Keep captured output byte-exact across Git checkouts.
+* -text

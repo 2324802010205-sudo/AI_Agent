@@ -1,0 +1,22 @@
+### Sales Analysis Summary
+
+The sales data from worksheet `Du_lieu` in workbook `sales` was analyzed:
+
+- **Total Orders**: 48
+- **Total Recorded Revenue**: 344,740,000 VND
+- **Total Recorded Profit**: 95,980,000 VND
+- **Cancelled Orders**: 10
+- **Cancellation Threshold**: 8 orders
+- **Warning**: `WARNING: 10 cancelled orders exceed 8.`
+- **Review Decision**: Submitted successfully (ID: `submitted-sales-review`)
+- **Excel Report Generated**: `sales-report.xlsx`
+
+```json
+{
+  "orders": 48,
+  "cancelled_orders": 10,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000,
+  "cancellation_warning": true
+}
+```

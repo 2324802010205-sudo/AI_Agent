@@ -1,0 +1,20 @@
+**Kế hoạch:**
+1. Trích xuất thông tin tổng hợp từ kết quả quan sát phân tích bảng tính `synthetic_sales.xlsx` (sheet `Du_lieu`).
+2. Xác định tổng số đơn hàng dựa trên số dòng dữ liệu (`row_count` ứng với cột `Ma_don`), tổng doanh thu từ cột `Doanh_thu_VND` và tổng lợi nhuận từ cột `Loi_nhuan_VND`.
+3. Ghi nhận tên tệp báo cáo Excel đã được tạo và xuất kết quả dạng JSON.
+
+---
+
+**Kết quả:**
+- **Tổng số đơn hàng:** 48 đơn (xác định qua số dòng dữ liệu `row_count` của cột `Ma_don`).
+- **Tổng doanh thu:** 344.740.000 VND (tính từ tổng giá trị `sum` của cột `Doanh_thu_VND`).
+- **Tổng lợi nhuận:** 95.980.000 VND (tính từ tổng giá trị `sum` của cột `Loi_nhuan_VND`).
+- **Tên báo cáo Excel đã tạo:** `bao-cao-b6639567.xlsx`
+
+```json
+{
+  "orders": 48,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000
+}
+```

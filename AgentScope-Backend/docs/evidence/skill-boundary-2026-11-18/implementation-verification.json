@@ -1,0 +1,32 @@
+{
+  "backend": {
+    "repository": "AgentScope-Backend",
+    "tests_passed": 187,
+    "tests_skipped": 1,
+    "black_changed_python_files_passed": 7
+  },
+  "desktop": {
+    "repository": "AgentScope-Desktop",
+    "tests_passed": 25,
+    "build": "passed",
+    "prettier": "passed"
+  },
+  "browser": {
+    "data": "copies of genuine aggregate and raw-row experiment evidence",
+    "viewports": [
+      1480,
+      1280
+    ],
+    "page_errors": 0,
+    "downloads": [
+      "Vietnamese Markdown report",
+      "evidence JSON",
+      "tool-generated XLSX"
+    ]
+  },
+  "warnings": [
+    "Starlette/httpx deprecation",
+    "Vite bundle size above 500 kB"
+  ],
+  "installed_native_binaries_rebuilt": false
+}

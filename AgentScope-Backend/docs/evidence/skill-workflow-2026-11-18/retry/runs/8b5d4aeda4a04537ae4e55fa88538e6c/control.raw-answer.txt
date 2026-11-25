@@ -1,0 +1,28 @@
+### Kế hoạch thực hiện
+1. Tiếp nhận và đối soát toàn bộ 48 dòng dữ liệu từ bảng tính `synthetic_sales.xlsx` (sheet `Du_lieu`).
+2. Tổng hợp tổng số đơn hàng, tổng doanh thu và tổng lợi nhuận ghi nhận trên toàn bộ các bản ghi (bao gồm đơn hoàn thành và đơn đã hủy theo đúng giá trị cột).
+3. Xác nhận báo cáo tổng hợp và đưa ra nhận xét kinh doanh từ số liệu.
+
+---
+
+### Kết quả tổng hợp
+- **Báo cáo do công cụ tạo:** `bao-cao-34fb674f.xlsx`
+- **Tổng số đơn hàng:** 48 đơn hàng (trong đó có 38 đơn hoàn thành và 10 đơn đã hủy).
+- **Tổng doanh thu:** 344.740.000 VND
+- **Tổng lợi nhuận:** 95.980.000 VND
+- **Nhận xét kinh doanh:** Mặt hàng Laptop văn phòng là động lực tăng trưởng chính khi đóng góp phần lớn doanh thu và lợi nhuận, trong khi tỷ lệ đơn hủy chiếm 20,83% (10/48 đơn) là yếu tố cần được kiểm soát và tối ưu quy trình xử lý đơn.
+
+---
+
+TOOLS=read_spreadsheet,analyze_spreadsheet,generate_report
+ROWS=ALL
+RULE=RECORDED
+INCLUDED_ORDERS=48
+CONCLUSION=DESCRIPTIVE
+FINDING=Sản phẩm Laptop văn phòng đóng góp tỷ trọng doanh thu và lợi nhuận lớn nhất trong khi tỷ lệ hủy đơn chiếm 20,83% tổng số đơn hàng.
+
+{
+  "orders": 48,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000
+}

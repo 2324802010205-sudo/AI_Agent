@@ -1,0 +1,90 @@
+{
+  "folders": [
+    {
+      "name": "AgentScope-Desktop",
+      "path": ".",
+    },
+    {
+      "name": "AgentScope-Backend",
+      "path": "../AgentScope-Backend",
+    },
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/node_modules": true,
+      "**/.venv": true,
+      "**/__pycache__": true,
+      "**/.pytest_cache": true,
+      "**/*.egg-info": true,
+      "**/.agentscope*": true,
+      "**/target": true,
+      "**/build": true,
+      "**/dist": true,
+      "**/test-results": true,
+      "**/artifacts": true,
+      "**/*.tsbuildinfo": true,
+      "**/.test-tmp": true,
+      "**/.pytest_cache*": true,
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/.venv": true,
+      "**/target": true,
+      "**/.agentscope*": true,
+    },
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-python.python",
+      "ms-python.black-formatter",
+      "esbenp.prettier-vscode",
+      "rust-lang.rust-analyzer",
+    ],
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Backend: run",
+        "type": "process",
+        "command": "${workspaceFolder:AgentScope-Backend}/.venv/Scripts/python.exe",
+        "args": ["-m", "agentscope", "--data-dir", ".agentscope", "--port", "8765"],
+        "options": {
+          "cwd": "${workspaceFolder:AgentScope-Backend}",
+        },
+        "problemMatcher": [],
+      },
+      {
+        "label": "Backend: tests",
+        "type": "process",
+        "command": "${workspaceFolder:AgentScope-Backend}/.venv/Scripts/python.exe",
+        "args": ["-m", "pytest", "tests", "-q"],
+        "options": {
+          "cwd": "${workspaceFolder:AgentScope-Backend}",
+        },
+        "problemMatcher": [],
+      },
+      {
+        "label": "Desktop: frontend",
+        "type": "shell",
+        "command": "npm.cmd run dev",
+        "options": {
+          "cwd": "${workspaceFolder:AgentScope-Desktop}",
+        },
+        "problemMatcher": [],
+      },
+      {
+        "label": "Desktop: native",
+        "type": "shell",
+        "command": "npm.cmd run desktop:dev",
+        "options": {
+          "cwd": "${workspaceFolder:AgentScope-Desktop}",
+          "env": {
+            "PATH": "${env:USERPROFILE}\\.cargo\\bin;${env:PATH}",
+          },
+        },
+        "problemMatcher": [],
+      },
+    ],
+  },
+}

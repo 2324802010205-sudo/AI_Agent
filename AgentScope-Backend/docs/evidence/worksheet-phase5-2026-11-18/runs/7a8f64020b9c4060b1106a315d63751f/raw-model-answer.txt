@@ -1,0 +1,14 @@
+```json
+{
+  "orders": 48,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000,
+  "cancelled_orders": 10,
+  "cancellation_warning": true
+}
+```
+
+WARNING: 10 cancelled orders exceed 8.
+
+### Basis for the Warning Decision
+Across the 48 recorded transactions in [sales-report.xlsx](file:///C:/Users/ADMIN/AgentScopeLab/runs/pi-control-9abc723a16c6/workspace/sales-report.xlsx), 10 orders have a recorded status of "Đã hủy" (cancelled). Because the policy mandates a cancellation warning whenever the number of cancelled orders exceeds 8, and 10 is strictly greater than 8, `cancellation_warning` is set to `true`.

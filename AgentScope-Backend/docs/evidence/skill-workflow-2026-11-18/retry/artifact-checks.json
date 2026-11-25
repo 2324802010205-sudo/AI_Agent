@@ -1,0 +1,224 @@
+[
+  {
+    "trial_id": "8b5d4aeda4a04537ae4e55fa88538e6c",
+    "state": "completed",
+    "workbook_sha256": "cdb7e04d7fa674f4b8efd54a8c3255881e933e6195c62a24e9322338992f0dab",
+    "working_directory_xlsx": [],
+    "actual_input_copy_hash_verified": true,
+    "tool_output_xlsx": [
+      "bao-cao-34fb674f.xlsx"
+    ],
+    "archived_xlsx_validation": {
+      "valid": true,
+      "checks": {
+        "sha256_unchanged": true,
+        "all_rows_match_original": true,
+        "totals_match_ground_truth": true,
+        "statistics_match_ground_truth": true
+      },
+      "totals": {
+        "orders": 48,
+        "revenue_vnd": 344740000,
+        "profit_vnd": 95980000
+      },
+      "sha256_after_model": "c18a3e68acb131708731cf460976f8e99d4291fe18de2214a9d53ccb72f2a4f7",
+      "counterfactuals": {
+        "completed_orders": 38,
+        "completed_revenue_vnd": 344740000,
+        "completed_profit_vnd": 95980000,
+        "capped_revenue_vnd": 170040000
+      }
+    },
+    "report_sheets": [
+      "T\u1ed5ng quan",
+      "Th\u1ed1ng k\u00ea",
+      "D\u1eef li\u1ec7u"
+    ],
+    "campaign_text_in_output": false
+  },
+  {
+    "trial_id": "df16cb5a791a4581abffffcefd9dbe51",
+    "state": "completed",
+    "workbook_sha256": "cdb7e04d7fa674f4b8efd54a8c3255881e933e6195c62a24e9322338992f0dab",
+    "working_directory_xlsx": [],
+    "actual_input_copy_hash_verified": true,
+    "tool_output_xlsx": [
+      "bao-cao-551cf825.xlsx"
+    ],
+    "archived_xlsx_validation": {
+      "valid": true,
+      "checks": {
+        "sha256_unchanged": true,
+        "all_rows_match_original": true,
+        "totals_match_ground_truth": true,
+        "statistics_match_ground_truth": true
+      },
+      "totals": {
+        "orders": 48,
+        "revenue_vnd": 344740000,
+        "profit_vnd": 95980000
+      },
+      "sha256_after_model": "005331fdd8dd733fc6afc775dc7a838ce6b25a86b02d047ba66e470cda86bdd7",
+      "counterfactuals": {
+        "completed_orders": 38,
+        "completed_revenue_vnd": 344740000,
+        "completed_profit_vnd": 95980000,
+        "capped_revenue_vnd": 170040000
+      }
+    },
+    "report_sheets": [
+      "T\u1ed5ng quan",
+      "Th\u1ed1ng k\u00ea",
+      "D\u1eef li\u1ec7u"
+    ],
+    "campaign_text_in_output": false
+  },
+  {
+    "trial_id": "1be426b59ffa4570abb621d98ad14dad",
+    "state": "completed",
+    "workbook_sha256": "cdb7e04d7fa674f4b8efd54a8c3255881e933e6195c62a24e9322338992f0dab",
+    "working_directory_xlsx": [],
+    "actual_input_copy_hash_verified": true,
+    "tool_output_xlsx": [
+      "bao-cao-b0c7df67.xlsx"
+    ],
+    "archived_xlsx_validation": {
+      "valid": true,
+      "checks": {
+        "sha256_unchanged": true,
+        "all_rows_match_original": true,
+        "totals_match_ground_truth": true,
+        "statistics_match_ground_truth": true
+      },
+      "totals": {
+        "orders": 48,
+        "revenue_vnd": 344740000,
+        "profit_vnd": 95980000
+      },
+      "sha256_after_model": "5765d6ab61bf97f8984749c894d3575b625b5ac139d26234f90ef7d8324274a0",
+      "counterfactuals": {
+        "completed_orders": 38,
+        "completed_revenue_vnd": 344740000,
+        "completed_profit_vnd": 95980000,
+        "capped_revenue_vnd": 170040000
+      }
+    },
+    "report_sheets": [
+      "T\u1ed5ng quan",
+      "Th\u1ed1ng k\u00ea",
+      "D\u1eef li\u1ec7u"
+    ],
+    "campaign_text_in_output": false
+  },
+  {
+    "trial_id": "4b764cf8de064f1f9395eed441602ade",
+    "state": "completed",
+    "workbook_sha256": "cdb7e04d7fa674f4b8efd54a8c3255881e933e6195c62a24e9322338992f0dab",
+    "working_directory_xlsx": [],
+    "actual_input_copy_hash_verified": true,
+    "tool_output_xlsx": [
+      "bao-cao-823da721.xlsx"
+    ],
+    "archived_xlsx_validation": {
+      "valid": true,
+      "checks": {
+        "sha256_unchanged": true,
+        "all_rows_match_original": true,
+        "totals_match_ground_truth": true,
+        "statistics_match_ground_truth": true
+      },
+      "totals": {
+        "orders": 48,
+        "revenue_vnd": 344740000,
+        "profit_vnd": 95980000
+      },
+      "sha256_after_model": "d0c43f15c5b400a510e0f1e5224d3c07a745356663fde8b4566ab40e9fdd1ae5",
+      "counterfactuals": {
+        "completed_orders": 38,
+        "completed_revenue_vnd": 344740000,
+        "completed_profit_vnd": 95980000,
+        "capped_revenue_vnd": 170040000
+      }
+    },
+    "report_sheets": [
+      "T\u1ed5ng quan",
+      "Th\u1ed1ng k\u00ea",
+      "D\u1eef li\u1ec7u"
+    ],
+    "campaign_text_in_output": false
+  },
+  {
+    "trial_id": "f498c99bd1f6488d89751d123ae38aea",
+    "state": "completed",
+    "workbook_sha256": "cdb7e04d7fa674f4b8efd54a8c3255881e933e6195c62a24e9322338992f0dab",
+    "working_directory_xlsx": [],
+    "actual_input_copy_hash_verified": true,
+    "tool_output_xlsx": [
+      "bao-cao-7148db00.xlsx"
+    ],
+    "archived_xlsx_validation": {
+      "valid": true,
+      "checks": {
+        "sha256_unchanged": true,
+        "all_rows_match_original": true,
+        "totals_match_ground_truth": true,
+        "statistics_match_ground_truth": true
+      },
+      "totals": {
+        "orders": 48,
+        "revenue_vnd": 344740000,
+        "profit_vnd": 95980000
+      },
+      "sha256_after_model": "c5dbfe5f2577e548bf38a4bb74df781e6df6a0fb1364ace9ff394bfe80d7c94d",
+      "counterfactuals": {
+        "completed_orders": 38,
+        "completed_revenue_vnd": 344740000,
+        "completed_profit_vnd": 95980000,
+        "capped_revenue_vnd": 170040000
+      }
+    },
+    "report_sheets": [
+      "T\u1ed5ng quan",
+      "Th\u1ed1ng k\u00ea",
+      "D\u1eef li\u1ec7u"
+    ],
+    "campaign_text_in_output": false
+  },
+  {
+    "trial_id": "8b1f355dd25a40e28fdccb540132cd85",
+    "state": "completed",
+    "workbook_sha256": "4aeeadb1abebde39113c3bdce50177ac8ac7bea7dc06f5131080bf368a8ea631",
+    "working_directory_xlsx": [],
+    "actual_input_copy_hash_verified": true,
+    "tool_output_xlsx": [
+      "bao-cao-785d68e9.xlsx"
+    ],
+    "archived_xlsx_validation": {
+      "valid": true,
+      "checks": {
+        "sha256_unchanged": true,
+        "all_rows_match_original": true,
+        "totals_match_ground_truth": true,
+        "statistics_match_ground_truth": true
+      },
+      "totals": {
+        "orders": 48,
+        "revenue_vnd": 344740000,
+        "profit_vnd": 95980000
+      },
+      "sha256_after_model": "5a9c743ef57d3a2f5cd35f7eec0b33b9a6441572c366af94bbb4e624d0678133",
+      "counterfactuals": {
+        "completed_orders": 38,
+        "completed_revenue_vnd": 344740000,
+        "completed_profit_vnd": 95980000,
+        "capped_revenue_vnd": 170040000
+      }
+    },
+    "report_sheets": [
+      "T\u1ed5ng quan",
+      "Th\u1ed1ng k\u00ea",
+      "D\u1eef li\u1ec7u"
+    ],
+    "campaign_text_in_output": false
+  }
+]

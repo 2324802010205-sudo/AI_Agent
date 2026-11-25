@@ -1,0 +1,5 @@
+{"event":"process_joined","time":"2026-11-18T09:15:22.4665809Z","pid":26716,"image":"C:\\Users\\ADMIN\\AgentScopeLab\\bin\\agy.exe","command_line":"C:\\Users\\ADMIN\\AgentScopeLab\\bin\\agy.exe acp --sandbox --include-default-customizations=false --disable-telemetry"}
+{"event":"process_joined","time":"2026-11-18T09:15:22.4724619Z","pid":3528,"image":"C:\\Windows\\System32\\conhost.exe","command_line":"\\??\\C:\\Windows\\system32\\conhost.exe 0xffffffff -ForceV1"}
+{"event":"process_exited","time":"2026-11-18T09:16:57.3024476Z","pid":26716,"exit_code":0,"abnormal":false}
+{"event":"process_exited","time":"2026-11-18T09:16:57.3034490Z","pid":3528,"exit_code":0,"abnormal":false}
+{"event":"job_empty","time":"2026-11-18T09:16:57.3262223Z"}

@@ -1,0 +1,64 @@
+{
+  "San_pham": {
+    "Màn hình 24 inch": {
+      "orders": 10,
+      "revenue_vnd": 59000000,
+      "profit_vnd": 17000000
+    },
+    "Bàn phím cơ": {
+      "orders": 10,
+      "revenue_vnd": 25000000,
+      "profit_vnd": 9600000
+    },
+    "Chuột không dây": {
+      "orders": 10,
+      "revenue_vnd": 9000000,
+      "profit_vnd": 4400000
+    },
+    "Tai nghe": {
+      "orders": 9,
+      "revenue_vnd": 14240000,
+      "profit_vnd": 6080000
+    },
+    "Laptop văn phòng": {
+      "orders": 9,
+      "revenue_vnd": 237500000,
+      "profit_vnd": 58900000
+    }
+  },
+  "Khu_vuc": {
+    "Miền Nam": {
+      "orders": 14,
+      "revenue_vnd": 125650000,
+      "profit_vnd": 33380000
+    },
+    "Miền Trung": {
+      "orders": 14,
+      "revenue_vnd": 84560000,
+      "profit_vnd": 24410000
+    },
+    "Miền Bắc": {
+      "orders": 20,
+      "revenue_vnd": 134530000,
+      "profit_vnd": 38190000
+    }
+  },
+  "Trang_thai": {
+    "Hoàn thành": {
+      "orders": 38,
+      "revenue_vnd": 344740000,
+      "profit_vnd": 95980000
+    },
+    "Đã hủy": {
+      "orders": 10,
+      "revenue_vnd": 0,
+      "profit_vnd": 0
+    }
+  },
+  "cancellation_rate_pct": "20.83333333333333333333333333",
+  "date_range": [
+    "2026-10-01",
+    "2026-10-31"
+  ],
+  "analytical_scope": "Descriptive synthetic sales data; no observed campaign attribution or causal controls."
+}

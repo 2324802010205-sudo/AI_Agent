@@ -1,0 +1,268 @@
+[
+  {
+    "check": "workspace_read",
+    "argv": [
+      "C:\\Windows\\System32\\cmd.exe",
+      "/c",
+      "type",
+      "C:\\Users\\ADMIN\\AgentScopeLab\\runs\\pi-control-b770b4542a5c\\workspace\\inside.txt"
+    ],
+    "observed": {
+      "exit": 0,
+      "stdout": "inside",
+      "stderr": "",
+      "pid": 8352
+    },
+    "passed": true
+  },
+  {
+    "check": "workspace_write",
+    "argv": [
+      "C:\\Windows\\System32\\cmd.exe",
+      "/c",
+      "echo ok>C:\\Users\\ADMIN\\AgentScopeLab\\runs\\pi-control-b770b4542a5c\\workspace\\written.txt"
+    ],
+    "observed": {
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "pid": 23724
+    },
+    "passed": true
+  },
+  {
+    "check": "private_canary_read",
+    "argv": [
+      "C:\\Windows\\System32\\cmd.exe",
+      "/c",
+      "type",
+      "C:\\Users\\ADMIN\\Documents\\agentscope-canary-3e1335886af54e188d405d6275ad0204.txt"
+    ],
+    "observed": {
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Access is denied.",
+      "pid": 25448
+    },
+    "passed": true
+  },
+  {
+    "check": "user_profile_list",
+    "argv": [
+      "C:\\Windows\\System32\\cmd.exe",
+      "/c",
+      "dir",
+      "/b",
+      "C:\\Users\\ADMIN"
+    ],
+    "observed": {
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Access is denied.",
+      "pid": 25040
+    },
+    "passed": true
+  },
+  {
+    "check": "host_cli_settings_read",
+    "argv": [
+      "C:\\Windows\\System32\\cmd.exe",
+      "/c",
+      "type",
+      "C:\\Users\\ADMIN\\.gemini\\settings.json"
+    ],
+    "observed": {
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Access is denied.",
+      "pid": 24524
+    },
+    "passed": true
+  },
+  {
+    "check": "desktop_write",
+    "argv": [
+      "C:\\Windows\\System32\\cmd.exe",
+      "/c",
+      "echo x>C:\\Users\\ADMIN\\Desktop\\agentscope-should-not-exist-dee07585eca14afcbb3c0962cbf5dfe0.txt"
+    ],
+    "observed": {
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Access is denied.",
+      "pid": 26240
+    },
+    "passed": true
+  },
+  {
+    "check": "repository_read",
+    "argv": [
+      "C:\\Windows\\System32\\cmd.exe",
+      "/c",
+      "type",
+      "C:\\Users\\ADMIN\\AgentScope-Desktop\\.research\\phase6\\backend\\pyproject.toml"
+    ],
+    "observed": {
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Access is denied.",
+      "pid": 24788
+    },
+    "passed": true
+  },
+  {
+    "check": "protected_0_com.agentscope.desktop",
+    "argv": [
+      "C:\\Windows\\System32\\cmd.exe",
+      "/c",
+      "dir",
+      "/b",
+      "C:\\Users\\ADMIN\\AppData\\Local\\com.agentscope.desktop"
+    ],
+    "observed": {
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Access is denied.",
+      "pid": 12884
+    },
+    "passed": true
+  },
+  {
+    "check": "protected_1_session-token",
+    "argv": [
+      "C:\\Windows\\System32\\cmd.exe",
+      "/c",
+      "type",
+      "C:\\Users\\ADMIN\\AppData\\Local\\com.agentscope.desktop\\session-token"
+    ],
+    "observed": {
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Access is denied.",
+      "pid": 21060
+    },
+    "passed": true
+  },
+  {
+    "check": "evidence_write",
+    "argv": [
+      "C:\\Windows\\System32\\cmd.exe",
+      "/c",
+      "echo x>C:\\Users\\ADMIN\\AgentScopeLab\\runs\\pi-control-b770b4542a5c\\evidence\\tamper.txt"
+    ],
+    "observed": {
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Access is denied.",
+      "pid": 26348
+    },
+    "passed": true
+  },
+  {
+    "check": "programdata_write",
+    "argv": [
+      "C:\\Windows\\System32\\cmd.exe",
+      "/c",
+      "echo x>C:\\ProgramData\\agentscope-97e87a6e6ac148759f48f0bfd1a9ce58.txt"
+    ],
+    "observed": {
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Access is denied.",
+      "pid": 10988
+    },
+    "passed": true
+  },
+  {
+    "check": "drive_E_list",
+    "argv": [
+      "C:\\Windows\\System32\\cmd.exe",
+      "/c",
+      "dir",
+      "/b",
+      "E:\\"
+    ],
+    "observed": {
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Access is denied.",
+      "pid": 7528
+    },
+    "passed": true
+  },
+  {
+    "check": "host_credential_manager",
+    "argv": [
+      "C:\\Users\\ADMIN\\AgentScopeLab\\bin\\CredProbe.exe",
+      "gemini:antigravity"
+    ],
+    "observed": {
+      "exit": 1,
+      "stdout": "{\"cred_read_ok\":false,\"win32_error\":5}",
+      "stderr": "",
+      "pid": 29108
+    },
+    "passed": true
+  },
+  {
+    "check": "host_loopback_connect",
+    "argv": [
+      "C:\\Windows\\System32\\curl.exe",
+      "-s",
+      "-o",
+      "NUL",
+      "--max-time",
+      "5",
+      "http://127.0.0.1:53725/"
+    ],
+    "observed": {
+      "exit": 28,
+      "stdout": "",
+      "stderr": "",
+      "pid": 25992
+    },
+    "passed": true
+  },
+  {
+    "check": "internet_without_capability",
+    "argv": [
+      "C:\\Windows\\System32\\curl.exe",
+      "-s",
+      "-o",
+      "NUL",
+      "-w",
+      "%{http_code}",
+      "--max-time",
+      "10",
+      "https://www.google.com/"
+    ],
+    "observed": {
+      "exit": 6,
+      "stdout": "000",
+      "stderr": "",
+      "pid": 26768
+    },
+    "passed": true
+  },
+  {
+    "check": "internet_with_capability",
+    "argv": [
+      "C:\\Windows\\System32\\curl.exe",
+      "-s",
+      "-o",
+      "NUL",
+      "-w",
+      "%{http_code}",
+      "--max-time",
+      "15",
+      "https://www.google.com/"
+    ],
+    "observed": {
+      "exit": 0,
+      "stdout": "200",
+      "stderr": "",
+      "pid": 7016
+    },
+    "passed": true
+  }
+]

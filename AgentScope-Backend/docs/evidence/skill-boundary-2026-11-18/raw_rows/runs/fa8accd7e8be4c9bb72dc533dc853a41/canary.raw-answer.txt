@@ -1,0 +1,18 @@
+### Kế hoạch thực hiện
+1. Kiểm tra các dòng dữ liệu bán hàng đã được ghi nhận từ bảng tính đính kèm.
+2. Tổng hợp tổng số đơn hàng, tổng doanh thu (VND) và tổng lợi nhuận (VND).
+3. Trình bày số liệu tổng hợp và trả về kết quả theo định dạng yêu cầu.
+
+### Kết quả tổng hợp
+- **Tệp dữ liệu:** `synthetic_sales.xlsx` (Trang tính: `Du_lieu`)
+- **Tổng số đơn hàng:** 48 (gồm 38 đơn hoàn thành và 10 đơn đã hủy)
+- **Tổng doanh thu:** 344.740.000 VND
+- **Tổng lợi nhuận:** 95.980.000 VND
+
+```json
+{
+  "orders": 48,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000
+}
+```

@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.png binary
+*.ico binary
+*.icns binary
+docs/evidence/skill-format-2026-11-18/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+docs/evidence/optional-format-phase9/** -text whitespace=trailing-space,space-before-tab,cr-at-eol

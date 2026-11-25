@@ -1,0 +1,7 @@
+{"event":"process_joined","time":"2026-11-20T12:51:28.2847299Z","pid":13228,"image":"C:\\Users\\ADMIN\\AgentScopeLab\\bin\\agy.exe","command_line":"C:\\Users\\ADMIN\\AgentScopeLab\\bin\\agy.exe acp --sandbox --include-default-customizations=false --disable-telemetry"}
+{"event":"process_joined","time":"2026-11-20T12:51:28.2858497Z","pid":3964,"image":"C:\\Windows\\System32\\conhost.exe","command_line":"\\??\\C:\\Windows\\system32\\conhost.exe 0xffffffff -ForceV1"}
+{"event":"process_joined","time":"2026-11-20T12:51:29.8590602Z","pid":26772,"image":"C:\\Users\\ADMIN\\AgentScopeLab\\bin\\python\\python.exe","command_line":"C:\\Users\\ADMIN\\AgentScopeLab\\bin\\python\\python.exe -I C:\\Users\\ADMIN\\AgentScopeLab\\bin\\agentscope-workbook-31eba2d2d1f02cb0.py C:\\Users\\ADMIN\\AgentScopeLab\\runs\\exp-skillguard_off-d3a459c3c3a9\\input\\workbook.json b7b3492bd749ae95560d38c834d526fa28595f94e6424ac8339c572b1942f3b1 C:\\Users\\ADMIN\\AgentScopeLab\\runs\\exp-skillguard_off-d3a459c3c3a9\\workspace --policy observe"}
+{"event":"process_exited","time":"2026-11-20T12:52:04.4574685Z","pid":26772,"exit_code":0,"abnormal":false}
+{"event":"process_exited","time":"2026-11-20T12:52:04.4597141Z","pid":13228,"exit_code":0,"abnormal":false}
+{"event":"process_exited","time":"2026-11-20T12:52:04.4613781Z","pid":3964,"exit_code":0,"abnormal":false}
+{"event":"job_empty","time":"2026-11-20T12:52:04.4927701Z"}

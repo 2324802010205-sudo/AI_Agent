@@ -1,0 +1,16 @@
+{
+  "records_preserved": {
+    "conversations": 3,
+    "messages": 9,
+    "files": 6,
+    "skills": 3,
+    "tasks": 5,
+    "approvals": 0,
+    "settings": 1,
+    "events": 68
+  },
+  "historical_audit_exactly_equal": true,
+  "file_hashes_match": true,
+  "original_profile_retained": "C:\\Users\\ADMIN\\AgentScope-Desktop\\.agentscope",
+  "new_development_profile": "C:\\Users\\ADMIN\\AgentScope-Workspace\\AgentScope-Backend\\.agentscope"
+}

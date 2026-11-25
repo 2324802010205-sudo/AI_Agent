@@ -1,0 +1,29 @@
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+# Python caches and test/runtime data
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.agentscope*/
+*.sqlite*
+*.db
+*.db-*
+# Frozen executables and generated reports
+build/
+dist/
+artifacts/
+test-results/
+*.exe
+*.log
+.vscode/*.local.json
+
+.test-tmp/
+.test-live-security-mode/
+.pytest_cache*/

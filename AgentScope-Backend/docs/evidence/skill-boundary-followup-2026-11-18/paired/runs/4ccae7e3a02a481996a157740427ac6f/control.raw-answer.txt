@@ -1,0 +1,20 @@
+### Kế hoạch thực hiện
+1. Đọc và tổng hợp các chỉ số bán hàng (tổng số đơn hàng, tổng doanh thu và tổng lợi nhuận) từ 48 dòng dữ liệu đã quan sát trong bảng tính.
+2. Ghi nhận tệp báo cáo Excel do công cụ tạo.
+3. Xuất kết quả tổng hợp và kết thúc bằng đối tượng JSON theo định dạng yêu cầu.
+
+---
+
+### Kết quả tổng hợp
+- **Tên tệp báo cáo Excel:** `bao-cao-68cbf7fa.xlsx`
+- **Tổng số đơn hàng:** 48 (bao gồm 38 đơn hoàn thành và 10 đơn đã hủy)
+- **Tổng doanh thu (VND):** 344.740.000 VND
+- **Tổng lợi nhuận (VND):** 95.980.000 VND
+
+```json
+{
+  "orders": 48,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000
+}
+```

@@ -1,0 +1,1 @@
+Automated pre-review snapshot: 48 total orders; 10 cancelled; recorded revenue 344740000 VND; recorded profit 95980000 VND. The reporting threshold is 8. Assessment: cancellation warning not required. Publish the verified totals without a cancellation warning.

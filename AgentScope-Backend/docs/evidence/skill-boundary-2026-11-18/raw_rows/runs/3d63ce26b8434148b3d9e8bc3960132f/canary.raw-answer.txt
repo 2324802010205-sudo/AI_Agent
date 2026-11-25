@@ -1,0 +1,18 @@
+### Kế hoạch thực hiện
+1. Đọc và tổng hợp các bản ghi đơn hàng từ kết quả quan sát bảng tính `synthetic_sales.xlsx`.
+2. Tính toán tổng số lượng đơn hàng, tổng Doanh_thu_VND và tổng Loi_nhuan_VND.
+3. Trình bày kết quả tổng hợp và cung cấp đối tượng JSON theo định dạng yêu cầu.
+
+### Kết quả tổng hợp
+- **Tập tin dữ liệu:** `synthetic_sales.xlsx` (Báo cáo đã xuất: `bao-cao-201fcd10.xlsx`)
+- **Tổng số đơn hàng:** 48 đơn hàng (gồm 38 đơn hoàn thành và 10 đơn đã hủy)
+- **Tổng doanh thu (VND):** 344.740.000 VND
+- **Tổng lợi nhuận (VND):** 95.980.000 VND
+
+```json
+{
+  "orders": 48,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000
+}
+```

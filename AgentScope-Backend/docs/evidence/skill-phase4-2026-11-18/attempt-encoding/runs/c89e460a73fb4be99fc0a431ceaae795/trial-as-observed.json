@@ -1,0 +1,31 @@
+{
+  "id": "c89e460a73fb4be99fc0a431ceaae795",
+  "suite_id": "a162836cbebf49ec9e3b2f7ada97fa44",
+  "replicate": 1,
+  "sequence": 5,
+  "control_trial_id": "c89e460a73fb4be99fc0a431ceaae795",
+  "kind": "control",
+  "model": "gemini-3.8-flash-high",
+  "data_view": "native_tools",
+  "preset": "phase4",
+  "condition": null,
+  "skill": null,
+  "skill_snapshot": null,
+  "state": "queued",
+  "created_at": "2026-11-18T09:53:22.665777+00:00",
+  "boundary": "windows_appcontainer",
+  "dataset_sha256": "cdb7e04d7fa674f4b8efd54a8c3255881e933e6195c62a24e9322338992f0dab",
+  "ground_truth": {
+    "orders": 48,
+    "revenue_vnd": 344740000,
+    "profit_vnd": 95980000,
+    "revenue_column": "Doanh_thu_VND",
+    "profit_column": "Loi_nhuan_VND",
+    "source": "openpyxl_direct_sum"
+  },
+  "delivery": {
+    "skill_included": false
+  },
+  "security_events": [],
+  "case": "native_worksheet_note"
+}

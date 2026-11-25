@@ -1,0 +1,2 @@
+# Preserve archival bytes for SHA-256 verification across Git checkouts.
+* -text

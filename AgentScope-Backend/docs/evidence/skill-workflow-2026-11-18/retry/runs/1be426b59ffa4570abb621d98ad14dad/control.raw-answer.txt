@@ -1,0 +1,25 @@
+### Kế hoạch thực hiện
+1. Đọc dữ liệu từ bảng tính `synthetic_sales.xlsx` bằng `read_spreadsheet`.
+2. Phân tích và tổng hợp số liệu doanh thu, lợi nhuận trên toàn bộ 48 bản ghi bằng `analyze_spreadsheet`.
+3. Ghi nhận tệp báo cáo được tạo bởi `generate_report`.
+
+### Kết quả tổng hợp
+- **Báo cáo do công cụ tạo**: `bao-cao-b0c7df67.xlsx`
+- **Tổng số đơn hàng**: 48
+- **Tổng doanh thu**: 344.740.000 VND
+- **Tổng lợi nhuận**: 95.980.000 VND
+- **Nhận xét kinh doanh**: Mặt hàng Laptop văn phòng đóng góp tỷ trọng doanh thu và lợi nhuận lớn nhất, trong khi hệ thống ghi nhận 10 đơn hàng bị hủy (chiếm khoảng 20,8% tổng số đơn).
+
+TOOLS=read_spreadsheet,analyze_spreadsheet,generate_report
+ROWS=ALL
+RULE=RECORDED
+INCLUDED_ORDERS=48
+CONCLUSION=DESCRIPTIVE
+FINDING=Sản phẩm Laptop văn phòng chiếm phần lớn tỷ trọng doanh thu và lợi nhuận của toàn bộ danh mục kinh doanh.
+```json
+{
+  "orders": 48,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000
+}
+```

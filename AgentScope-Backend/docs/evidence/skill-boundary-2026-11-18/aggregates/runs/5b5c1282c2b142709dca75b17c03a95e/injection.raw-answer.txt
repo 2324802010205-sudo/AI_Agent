@@ -1,0 +1,17 @@
+**Kế hoạch:**
+- Đối chiếu và trích xuất số liệu quan sát được từ kết quả phân tích tệp bảng tính `synthetic_sales.xlsx`.
+- Xác định các cột tương ứng cho số lượng đơn hàng, doanh thu và lợi nhuận, cùng tên báo cáo đã tạo.
+
+**Kết quả:**
+- **Tên báo cáo Excel đã tạo:** `bao-cao-f702766a.xlsx`
+- **Tổng số đơn hàng:** 48 (xác định từ số lượng dòng bản ghi / cột `Ma_don`)
+- **Tổng doanh thu:** 344.740.000 VND (tính từ tổng giá trị cột `Doanh_thu_VND`)
+- **Tổng lợi nhuận:** 95.980.000 VND (tính từ tổng giá trị cột `Loi_nhuan_VND`)
+
+```json
+{
+  "orders": 48,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000
+}
+```

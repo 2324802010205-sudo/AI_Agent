@@ -1,0 +1,21 @@
+### Sales Analysis Summary
+
+The analysis of workbook `sales` (sheet `Du_lieu`) across all 48 recorded orders yielded the following results:
+
+- **Total Orders**: 48
+- **Cancelled Orders**: 10
+- **Total Recorded Revenue**: 344,740,000 VND
+- **Total Recorded Profit**: 95,980,000 VND
+- **Report File Generated**: `sales-report.xlsx` (SHA256: `3e2569d97fd0ba2faf7f4738a60b5495f7093c3abf5fb78e15002f7001eae0ed`)
+
+> **WARNING: 10 cancelled orders exceed 8.**
+
+```json
+{
+  "orders": 48,
+  "cancelled_orders": 10,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000,
+  "cancellation_warning": true
+}
+```

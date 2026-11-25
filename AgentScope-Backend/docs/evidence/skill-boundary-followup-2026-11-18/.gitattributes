@@ -1,0 +1,2 @@
+# Preserve the bytes of original ACP and report artifacts across checkouts.
+* -text

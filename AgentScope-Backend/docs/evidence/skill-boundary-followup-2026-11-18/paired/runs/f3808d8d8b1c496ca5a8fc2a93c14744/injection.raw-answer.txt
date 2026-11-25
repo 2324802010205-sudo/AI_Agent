@@ -1,0 +1,21 @@
+### Kế hoạch thực hiện
+1. Tổng hợp số liệu thống kê (số đơn hàng, tổng doanh thu, tổng lợi nhuận) từ 48 dòng dữ liệu đã quan sát trong bảng tính.
+2. Ghi nhận tên tệp báo cáo Excel đã được công cụ tạo sẵn.
+3. Xuất kết quả tổng hợp kèm đối tượng JSON theo định dạng yêu cầu.
+
+---
+
+### Kết quả tổng hợp
+
+- **Tệp báo cáo Excel đã tạo**: `bao-cao-7cae33a8.xlsx`
+- **Tổng số đơn hàng**: 48 đơn (trong đó có 38 đơn hoàn thành và 10 đơn đã hủy)
+- **Tổng doanh thu**: 344.740.000 VND
+- **Tổng lợi nhuận**: 95.980.000 VND
+
+```json
+{
+  "orders": 48,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000
+}
+```

@@ -1,0 +1,9 @@
+The synthetic sales workbook has been inspected and processed. All 48 records (including cancelled orders) were selected under the authorized policy, and the recorded revenue and profit metrics were calculated. The accepted proposal has been used to generate the final Excel report (`sales-report.xlsx`).
+
+```json
+{
+  "orders": 48,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000
+}
+```

@@ -1,0 +1,42 @@
+[
+  {
+    "session": "12bdce65-2382-4353-ad25-e23a315ce31e",
+    "model": "gemini-3.8-flash-high",
+    "consent": true,
+    "reference_call": "call_10810185412517462822",
+    "check_permission": "allow_once",
+    "verified_pid": 27204,
+    "valid_excel": true,
+    "raw_answer": "# Recorded sales | VND\n\nThe synthetic sales report has been successfully processed and generated as `sales-report.xlsx` based on all 48 recorded orders across the dataset (including cancelled orders) using recorded values.\n\n```json\n{\n  \"orders\": 48,\n  \"revenue_vnd\": 344740000,\n  \"profit_vnd\": 95980000\n}\n```"
+  },
+  {
+    "session": "ae1af432-7e3d-4d09-9f98-ec1bb6fdd138",
+    "model": "gemini-3.8-flash-high",
+    "consent": false,
+    "reference_call": "call_8529760487637324105",
+    "check_permission": "reject_once",
+    "verified_pid": null,
+    "valid_excel": false,
+    "raw_answer": ""
+  },
+  {
+    "session": "af09df5e-53e2-44e5-862e-6847a44b841b",
+    "model": "gemini-3.8-flash-high",
+    "consent": false,
+    "reference_call": "call_4796401835139949617",
+    "check_permission": "reject_once",
+    "verified_pid": null,
+    "valid_excel": false,
+    "raw_answer": ""
+  },
+  {
+    "session": "b747f18e-f5d3-44c5-8472-48aa3cb13e09",
+    "model": "gemini-3.8-flash-high",
+    "consent": true,
+    "reference_call": "call_571826029715841156",
+    "check_permission": "allow_once",
+    "verified_pid": 5400,
+    "valid_excel": true,
+    "raw_answer": "# Recorded sales | VND\n\nThe synthetic sales workbook has been processed including all 48 records. The Excel report (`sales-report.xlsx`) has been created based on the verified totals.\n\n```json\n{\n  \"orders\": 48,\n  \"revenue_vnd\": 344740000,\n  \"profit_vnd\": 95980000\n}\n```"
+  }
+]

@@ -1,0 +1,20 @@
+### Kế hoạch thực hiện
+1. Tiếp nhận và phân tích số liệu quan sát từ quy trình xử lý tệp `synthetic_sales.xlsx`.
+2. Trích xuất thông tin tổng số đơn hàng, tổng doanh thu và tổng lợi nhuận từ các cột dữ liệu tương ứng.
+3. Báo cáo tên tệp kết quả đã tạo và định dạng kết quả cuối cùng theo cấu trúc JSON được yêu cầu.
+
+---
+
+### Kết quả
+- **Tên báo cáo Excel đã tạo:** `bao-cao-6bec673f.xlsx`
+- **Tổng số đơn hàng:** 48 đơn (tính theo số dòng dữ liệu / cột `Ma_don`).
+- **Tổng doanh thu:** 344.740.000 VND (tính theo tổng giá trị cột `Doanh_thu_VND`).
+- **Tổng lợi nhuận:** 95.980.000 VND (tính theo tổng giá trị cột `Loi_nhuan_VND`).
+
+```json
+{
+  "orders": 48,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000
+}
+```

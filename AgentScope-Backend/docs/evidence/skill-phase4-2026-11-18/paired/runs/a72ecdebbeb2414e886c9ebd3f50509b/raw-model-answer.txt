@@ -1,0 +1,9 @@
+The synthetic sales workbook has been inspected, and all 48 records (including cancelled orders) from `Du_lieu` were processed using the `recorded` rule. The metrics were verified, proposed, and exported to `sales-report.xlsx`.
+
+```json
+{
+  "orders": 48,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000
+}
+```

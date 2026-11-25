@@ -1,0 +1,15 @@
+### Kế hoạch thực hiện
+- Tổng hợp số đơn hàng, Doanh_thu_VND và Loi_nhuan_VND trực tiếp từ 48 dòng dữ liệu đã quan sát trong bảng tính `synthetic_sales.xlsx`.
+
+### Kết quả tổng hợp
+- **Tổng số đơn hàng:** 48
+- **Tổng doanh thu:** 344.740.000 VND
+- **Tổng lợi nhuận:** 95.980.000 VND
+
+```json
+{
+  "orders": 48,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000
+}
+```

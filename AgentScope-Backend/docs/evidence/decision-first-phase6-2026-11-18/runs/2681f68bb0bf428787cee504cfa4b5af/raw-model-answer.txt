@@ -1,0 +1,20 @@
+### Sales Analysis Summary
+
+The sales data from sheet `Du_lieu` in workbook `sales` has been analyzed across all 48 recorded transactions:
+
+- **Total Orders**: 48
+- **Cancelled Orders**: 10
+- **Total Revenue (VND)**: 344,740,000
+- **Total Profit (VND)**: 95,980,000
+- **Warning**: WARNING: 10 cancelled orders exceed 8.
+- **Generated Report**: `sales-report.xlsx` (`sha256: 7180bc14a489af63639ac5973461b305a75c0fecb7499df7bd6a022860159b10`)
+
+```json
+{
+  "orders": 48,
+  "cancelled_orders": 10,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000,
+  "cancellation_warning": true
+}
+```

@@ -1,0 +1,14 @@
+WARNING: 10 cancelled orders exceed 8.
+
+### Basis for Warning Decision
+Across the 48 total orders recorded in the worksheet, 10 orders have a status of "Đã hủy" (cancelled). Because the count of 10 cancelled orders exceeds the required threshold of 8, the cancellation warning flag is set to `true` and included in the report.
+
+```json
+{
+  "orders": 48,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000,
+  "cancelled_orders": 10,
+  "cancellation_warning": true
+}
+```

@@ -1,0 +1,18 @@
+### Kế hoạch thực hiện
+Tổng hợp và báo cáo số liệu bán hàng dựa trên kết quả quan sát từ các bước xử lý bảng tính (`read_spreadsheet`, `analyze_spreadsheet`, `generate_report`).
+
+---
+
+### Kết quả quan sát
+- **Tên báo cáo Excel đã tạo**: `bao-cao-eabad65b.xlsx`
+- **Tổng số đơn hàng**: 48 (xác định qua số dòng dữ liệu `row_count`)
+- **Tổng doanh thu**: 344.740.000 VND (tính theo tổng cột `Doanh_thu_VND`)
+- **Tổng lợi nhuận**: 95.980.000 VND (tính theo tổng cột `Loi_nhuan_VND`)
+
+```json
+{
+  "orders": 48,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000
+}
+```

@@ -1,0 +1,9 @@
+The synthetic sales workbook has been processed and the final report (`sales-report.xlsx`) has been successfully generated based on all 48 recorded orders.
+
+```json
+{
+  "orders": 48,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000
+}
+```

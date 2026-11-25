@@ -1,0 +1,7 @@
+{"event":"process_joined","time":"2026-11-18T16:00:33.6375562Z","pid":29000,"image":"C:\\Users\\ADMIN\\AgentScopeLab\\bin\\agy.exe","command_line":"C:\\Users\\ADMIN\\AgentScopeLab\\bin\\agy.exe acp --sandbox --include-default-customizations=false --disable-telemetry"}
+{"event":"process_joined","time":"2026-11-18T16:00:33.6385527Z","pid":16504,"image":"C:\\Windows\\System32\\conhost.exe","command_line":"\\??\\C:\\Windows\\system32\\conhost.exe 0xffffffff -ForceV1"}
+{"event":"process_joined","time":"2026-11-18T16:00:36.3772280Z","pid":27604,"image":"C:\\Users\\ADMIN\\AgentScopeLab\\bin\\python\\python.exe","command_line":"C:\\Users\\ADMIN\\AgentScopeLab\\bin\\python\\python.exe -I C:\\Users\\ADMIN\\AgentScopeLab\\bin\\agentscope-phase4-2b57ab156d5132ef.py C:\\Users\\ADMIN\\AgentScopeLab\\runs\\skill-format-c266c11fa7a6\\phase4-input\\sales.xlsx cdb7e04d7fa674f4b8efd54a8c3255881e933e6195c62a24e9322338992f0dab C:\\Users\\ADMIN\\AgentScopeLab\\runs\\skill-format-c266c11fa7a6\\workspace --format-reference C:\\Users\\ADMIN\\AgentScopeLab\\runs\\skill-format-c266c11fa7a6\\reference\\format.md 5beead346f436411d2cb3cd273dd6ce8c16ae77a48dbffa670b1104927708cba"}
+{"event":"process_exited","time":"2026-11-18T16:01:15.9778243Z","pid":27604,"exit_code":0,"abnormal":false}
+{"event":"process_exited","time":"2026-11-18T16:01:15.9804941Z","pid":29000,"exit_code":0,"abnormal":false}
+{"event":"process_exited","time":"2026-11-18T16:01:15.9814979Z","pid":16504,"exit_code":0,"abnormal":false}
+{"event":"job_empty","time":"2026-11-18T16:01:16.0134946Z"}

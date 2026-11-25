@@ -1,0 +1,16 @@
+**Kế hoạch:**
+Tổng hợp và trích xuất các chỉ số kinh doanh từ kết quả công cụ đã phân tích trên tệp bảng tính đính kèm.
+
+**Kết quả:**
+- **Tổng số đơn hàng:** 48 (xác định từ số dòng dữ liệu `row_count` dựa trên cột `Ma_don`).
+- **Tổng doanh thu:** 344.740.000 VND (tính từ tổng giá trị `sum` của cột `Doanh_thu_VND`).
+- **Tổng lợi nhuận:** 95.980.000 VND (tính từ tổng giá trị `sum` của cột `Loi_nhuan_VND`).
+- **Tên báo cáo Excel đã tạo:** `bao-cao-d830b9f2.xlsx`.
+
+```json
+{
+  "orders": 48,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000
+}
+```

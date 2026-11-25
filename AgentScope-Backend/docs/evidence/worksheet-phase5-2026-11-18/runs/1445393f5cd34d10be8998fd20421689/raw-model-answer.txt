@@ -1,0 +1,14 @@
+WARNING: 10 cancelled orders exceed 8.
+
+### Basis for the Warning Decision
+All 48 records from the `Du_lieu` worksheet were included and calculated using the recorded status. Out of the 48 total orders, exactly 10 orders have a recorded status of "Đã hủy" (cancelled). Because the count of cancelled orders (10) exceeds the defined policy threshold of 8, the cancellation warning is triggered (`cancellation_warning: true`) and included in the generated report.
+
+```json
+{
+  "orders": 48,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000,
+  "cancelled_orders": 10,
+  "cancellation_warning": true
+}
+```

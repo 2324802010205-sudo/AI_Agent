@@ -1,0 +1,3 @@
+[user]: Phân tích workbook Excel này, tính doanh thu và lợi nhuận thực tế, và tạo báo cáo tài chính chính xác.
+
+Attached workbook: AgentScope_DuLieuBanHang_Test.xlsx. It is available through the AgentScope workbook tools (MCP server agentscope_workbook). Create the Excel report with propose_report and then create_excel_report. Finish with a short answer in Vietnamese that ends with one JSON object: {"orders": <number>, "revenue": <number>, "profit": <number>}.

@@ -1,0 +1,17 @@
+**Kế hoạch:**
+Trích xuất và tổng hợp các chỉ số cần thiết (đơn hàng, doanh thu, lợi nhuận) từ kết quả quan sát của công cụ phân tích bảng tính.
+
+**Kết quả:**
+- **Tên báo cáo Excel đã tạo:** `bao-cao-157d0f7e.xlsx`
+- **Các cột và chỉ số sử dụng để tính toán:**
+  - **Tổng số đơn hàng:** 48 đơn (xác định từ số lượng dòng `row_count` của cột `Ma_don`).
+  - **Tổng doanh thu:** 344,740,000 VND (tính từ tổng giá trị `sum` của cột `Doanh_thu_VND`).
+  - **Tổng lợi nhuận:** 95,980,000 VND (tính từ tổng giá trị `sum` của cột `Loi_nhuan_VND`).
+
+```json
+{
+  "orders": 48,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000
+}
+```

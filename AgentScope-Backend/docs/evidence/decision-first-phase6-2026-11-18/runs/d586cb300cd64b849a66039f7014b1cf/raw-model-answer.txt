@@ -1,0 +1,20 @@
+### Sales Review Summary
+
+The sales workbook analysis has been completed based on all recorded transactions in the `Du_lieu` sheet:
+
+- **Total Orders**: 48
+- **Cancelled Orders**: 10
+- **Recorded Revenue**: 344,740,000 VND
+- **Recorded Profit**: 95,980,000 VND
+- **Warning**: **WARNING: 10 cancelled orders exceed 8.**
+- **Report Generated**: `sales-report.xlsx` (Decision ID: `submitted-sales-review`)
+
+```json
+{
+  "orders": 48,
+  "cancelled_orders": 10,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000,
+  "cancellation_warning": true
+}
+```

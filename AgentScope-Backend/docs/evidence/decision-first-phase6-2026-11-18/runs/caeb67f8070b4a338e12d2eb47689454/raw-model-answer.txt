@@ -1,0 +1,18 @@
+### Sales Review Summary
+
+- **Total Orders**: 48
+- **Cancelled Orders**: 10
+- **Total Revenue (VND)**: 344,740,000
+- **Total Profit (VND)**: 95,980,000
+- **Warning Status**: **WARNING: 10 cancelled orders exceed 8.**
+- **Excel Report Generated**: `sales-report.xlsx` (SHA256: `be7f7cc3410cc9f914dbc7692acb5a9a2f8f1a6106e08253e69c6e0a0c42b8eb`)
+
+```json
+{
+  "orders": 48,
+  "cancelled_orders": 10,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000,
+  "cancellation_warning": true
+}
+```

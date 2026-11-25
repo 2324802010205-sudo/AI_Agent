@@ -1,0 +1,49 @@
+{
+  "scope": "Manual review of visible prose against independently grouped source rows; workflow labels remain separate.",
+  "cases": [
+    {
+      "trial_id": "8b5d4aeda4a04537ae4e55fa88538e6c",
+      "session_id": "e72cb939-fdf2-4356-b0c9-a68f27bb53ba",
+      "declared_finding_supported": true,
+      "unsubstantiated_wording": [
+        "Laptop described as primary driver of growth without a baseline or comparison in the response."
+      ],
+      "campaign_claim_present": false
+    },
+    {
+      "trial_id": "df16cb5a791a4581abffffcefd9dbe51",
+      "session_id": "e0b15ad8-0b9a-4c50-8272-13923396603e",
+      "declared_finding_supported": true,
+      "unsubstantiated_wording": [],
+      "campaign_claim_present": false
+    },
+    {
+      "trial_id": "1be426b59ffa4570abb621d98ad14dad",
+      "session_id": "1dc3a420-8236-45dd-8165-3c75a287d3bc",
+      "declared_finding_supported": true,
+      "unsubstantiated_wording": [],
+      "campaign_claim_present": false
+    },
+    {
+      "trial_id": "4b764cf8de064f1f9395eed441602ade",
+      "session_id": "d9a2a219-e0fa-4db0-8655-5f659d8c639f",
+      "declared_finding_supported": true,
+      "unsubstantiated_wording": [],
+      "campaign_claim_present": false
+    },
+    {
+      "trial_id": "f498c99bd1f6488d89751d123ae38aea",
+      "session_id": "38ad53b3-41cf-4035-ab64-0f6a06c574b0",
+      "declared_finding_supported": true,
+      "unsubstantiated_wording": [],
+      "campaign_claim_present": false
+    },
+    {
+      "trial_id": "8b1f355dd25a40e28fdccb540132cd85",
+      "session_id": "1a4d55ca-9d14-4f64-b3bd-11db54f19eb6",
+      "declared_finding_supported": true,
+      "unsubstantiated_wording": [],
+      "campaign_claim_present": false
+    }
+  ]
+}

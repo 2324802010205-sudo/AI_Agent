@@ -1,0 +1,377 @@
+.composer-section {
+  container: chat-composer / inline-size;
+  min-width: 0;
+}
+
+.composer-section .composer {
+  --composer-surface: #1c1d26;
+  --composer-field: #22242f;
+  --composer-raised: #292631;
+  --composer-border: #383747;
+  --composer-muted: #a6a7ba;
+  --composer-accent: #ae98f7;
+  --composer-warning: #f3c492;
+  display: grid;
+  gap: 10px;
+  min-width: 0;
+  padding: 12px 14px;
+  border: 1px solid var(--composer-border);
+  border-radius: 22px;
+  background: var(--composer-surface);
+  box-shadow: 0 6px 24px #00000024;
+  font-size: 12px;
+  transition:
+    border-color 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+.composer-section .composer:focus-within {
+  border-color: #6a5b86;
+  box-shadow: 0 0 0 2px #a78bfa1f, 0 8px 26px #0000002a;
+}
+
+.composer .research-control {
+  margin: 0;
+  min-width: 0;
+}
+
+.composer .research-modes {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 4px;
+  padding: 4px;
+  border: 0;
+  border-radius: 14px;
+  background: #15161e;
+}
+
+.composer .research-modes button {
+  min-height: 34px;
+  min-width: 0;
+  padding: 5px 8px;
+  gap: 6px;
+  flex-wrap: nowrap;
+  border: 1px solid transparent;
+  border-radius: 11px;
+  font-size: 12px;
+  color: var(--composer-muted);
+  text-align: center;
+}
+
+.composer .research-modes button svg,
+.composer-runtime-status svg,
+.composer-restriction svg {
+  flex: 0 0 auto;
+}
+
+.composer .research-modes button.selected,
+.composer .research-modes button.selected:hover {
+  background: #30283f;
+  border-color: #574774;
+  color: #eddefe;
+}
+
+.composer .research-modes button:hover {
+  background: #23232f;
+}
+
+.composer-mode-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px 12px;
+  min-height: 30px;
+  padding: 4px 2px 0;
+  color: var(--composer-muted);
+  font-size: 11px;
+}
+
+.composer-runtime-status {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px 7px;
+  min-width: 0;
+}
+
+.composer-runtime-status > span + span {
+  padding: 2px 9px;
+  border-radius: 999px;
+  background: var(--composer-field);
+}
+
+.composer-runtime-status .verified {
+  color: #8ed8c0;
+}
+
+.composer .research-advanced-toggle {
+  min-height: 24px;
+  color: var(--composer-muted);
+  font-size: 11px;
+}
+
+.composer .research-control.compact .research-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 8px;
+  margin: 4px 0 0;
+  padding: 8px 2px 2px;
+  border-top: 1px solid var(--composer-border);
+}
+
+.composer .research-hint {
+  display: grid;
+  grid-template-columns: 14px minmax(0, 1fr);
+  align-items: start;
+  gap: 7px;
+  line-height: 1.5;
+  color: var(--composer-muted);
+}
+
+.composer .research-advanced {
+  grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr);
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.composer .research-advanced label {
+  min-width: 0;
+}
+
+.composer .research-advanced select {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.composer .readiness {
+  background: var(--composer-field);
+  min-width: 0;
+  border-color: var(--composer-border);
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.composer .readiness-text {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.composer .composer-attachments,
+.composer .composer-imports {
+  margin: 0;
+  min-width: 0;
+}
+
+.composer .workbook-list,
+.composer .composer-imports {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  min-width: 0;
+}
+
+.composer .workbook-list > span {
+  color: var(--composer-muted);
+  font-size: 11px;
+  flex-shrink: 0;
+}
+
+.composer .workbook-chip,
+.composer .composer-imports > button,
+.composer .research-workbook {
+  min-width: 0;
+  min-height: 30px;
+  max-width: 100%;
+  margin: 0;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--composer-border);
+  color: var(--composer-muted);
+  background: var(--composer-field);
+  font-size: 11px;
+}
+
+.composer .workbook-chip[aria-pressed='true'] {
+  color: #e1d4ff;
+  border-color: #625275;
+  background: var(--composer-raised);
+}
+
+.composer .research-workbook {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.composer .research-workbook select,
+.composer .skill-shortcut select {
+  min-width: 0;
+  max-width: 100%;
+  color: inherit;
+  background: var(--composer-field);
+}
+
+.composer .composer-restriction {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px 12px;
+  min-width: 0;
+  padding: 8px 12px;
+  border: 1px solid #b4855645;
+  border-inline-start: 3px solid #b48556;
+  border-radius: 12px;
+  color: var(--composer-warning);
+  background: #2a2426;
+  line-height: 1.45;
+}
+
+.composer-restriction > span,
+.composer-restriction > div {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  min-width: 0;
+}
+
+.composer-restriction button {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.composer-restriction > div {
+  flex-wrap: wrap;
+}
+
+.composer-restriction-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 8px;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.composer-restriction-summary small {
+  font-size: 11px;
+}
+
+.composer-section .composer textarea {
+  field-sizing: content;
+  min-width: 0;
+  min-height: 50px;
+  max-height: 150px;
+  padding: 7px 3px 3px;
+  color: #edecf4;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.composer textarea::placeholder {
+  color: #898b9f;
+}
+
+.composer .composer-toolbar {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 36px;
+  align-items: end;
+  gap: 10px;
+  margin: 0;
+}
+
+.composer .composer-toolbar > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+}
+
+.composer .composer-toolbar .icon-button {
+  flex: 0 0 auto;
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  color: var(--composer-muted);
+}
+
+.composer .skill-shortcut,
+.composer .composer-scan {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 32px;
+  min-width: 0;
+  max-width: 100%;
+  padding: 4px 11px;
+  border-radius: 999px;
+  background: var(--composer-field);
+  font-size: 11.5px;
+  color: #c2bdd4;
+}
+
+.composer .skill-shortcut select {
+  max-width: 31ch;
+  text-overflow: ellipsis;
+}
+
+.skill-source {
+  max-height: 48vh;
+  overflow: auto;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.composer .send-button {
+  width: 36px;
+  height: 36px;
+  border: 0;
+  border-radius: 50%;
+  background: #9279d1;
+  color: #15101f;
+  box-shadow: none;
+}
+
+.composer .send-button:hover:not(:disabled) {
+  background: var(--composer-accent);
+  transform: none;
+  box-shadow: none;
+}
+
+.composer :is(button, select):focus-visible {
+  outline: 2px solid var(--composer-accent);
+  outline-offset: 2px;
+}
+
+.composer-footnote,
+.composer-footnote kbd {
+  color: #9294a7;
+  font-size: 10px;
+}
+
+@container chat-composer (max-width: 570px) {
+  .composer .research-advanced {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@container chat-composer (max-width: 410px) {
+  .composer .research-modes {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .composer .skill-shortcut {
+    max-width: calc(100% - 38px);
+  }
+
+  .composer-footnote > span:last-child {
+    white-space: normal;
+    text-align: end;
+  }
+}

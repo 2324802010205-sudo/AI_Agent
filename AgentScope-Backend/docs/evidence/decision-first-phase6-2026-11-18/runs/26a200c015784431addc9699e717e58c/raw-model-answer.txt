@@ -1,0 +1,19 @@
+### Sales Workbook Analysis Summary
+
+- **Total Orders**: 48
+- **Cancelled Orders**: 10
+- **Total Revenue (VND)**: 344,740,000 VND
+- **Total Profit (VND)**: 95,980,000 VND
+- **Warning**: WARNING: 10 cancelled orders exceed 8.
+- **Decision ID**: `submitted-sales-review`
+- **Generated Report**: `sales-report.xlsx` (SHA-256: `3392a08f84237dbc98ead24b32e41bd181964e4eaf13133a560a1ac5ffe97136`)
+
+```json
+{
+  "orders": 48,
+  "cancelled_orders": 10,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000,
+  "cancellation_warning": true
+}
+```

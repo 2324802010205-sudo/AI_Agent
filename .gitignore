@@ -1,0 +1,41 @@
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+session-token
+
+# Python caches, test temp, and runtime data
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.pytest_cache*/
+.coverage
+htmlcov/
+.test-tmp/
+.test-live-security-mode/
+.agentscope*/
+*.sqlite*
+*.db
+*.db-*
+
+# Node, frontend, and Tauri build outputs
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+src-tauri/target/
+src-tauri/gen/
+src-tauri/binaries/*.exe
+test-results/
+playwright-report/
+artifacts/
+
+# Executables, installers, and logs
+*.exe
+*.msi
+*.log
+.vscode/*.local.json

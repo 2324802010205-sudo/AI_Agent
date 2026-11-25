@@ -1,0 +1,40 @@
+{
+  "repositories": {
+    "Desktop": {
+      "branch": "main",
+      "clean": true,
+      "commits": [
+        "f455503 build: preserve sibling backend discovery and native packaging",
+        "6f26093 refactor: separate desktop workspace and integration contracts",
+        "47cac87 chore: preserve existing desktop implementation"
+      ],
+      "remotes": "",
+      "tracked_files": 96
+    },
+    "Backend": {
+      "branch": "main",
+      "clean": true,
+      "commits": [
+        "e5a8861 build: package backend as an independent sidecar artifact",
+        "6d73978 refactor: isolate backend development and test data",
+        "8c63d3a chore: preserve existing backend implementation"
+      ],
+      "remotes": "",
+      "tracked_files": 35
+    }
+  },
+  "installer": "C:\\Users\\ADMIN\\AgentScope-Workspace\\AgentScope-Desktop\\src-tauri\\target\\release\\bundle\\nsis\\AgentScope_0.1.0_x64-setup.exe",
+  "installer_bytes": 22352143,
+  "backend_artifact_hashes_match": true,
+  "results": {
+    "backend_tests": 46,
+    "frontend_tests": 6,
+    "browser_e2e": "PASS",
+    "frozen_sidecar": "PASS",
+    "native_release": "PASS",
+    "installed_twice": "PASS",
+    "installed_normal_close": "PASS",
+    "debug_sibling_discovery": "PASS",
+    "data_preservation": "PASS"
+  }
+}

@@ -1,0 +1,7 @@
+{"event":"process_joined","time":"2026-11-18T11:20:00.8520119Z","pid":21824,"image":"C:\\Users\\ADMIN\\AgentScopeLab\\bin\\agy.exe","command_line":"C:\\Users\\ADMIN\\AgentScopeLab\\bin\\agy.exe acp --sandbox --include-default-customizations=false --disable-telemetry"}
+{"event":"process_joined","time":"2026-11-18T11:20:00.8530088Z","pid":3216,"image":"C:\\Windows\\System32\\conhost.exe","command_line":"\\??\\C:\\Windows\\system32\\conhost.exe 0xffffffff -ForceV1"}
+{"event":"process_joined","time":"2026-11-18T11:20:02.0523434Z","pid":21832,"image":"C:\\Users\\ADMIN\\AgentScopeLab\\bin\\python\\python.exe","command_line":"C:\\Users\\ADMIN\\AgentScopeLab\\bin\\python\\python.exe -I C:\\Users\\ADMIN\\AgentScopeLab\\bin\\agentscope-phase4-8a7265e097a112a4.py C:\\Users\\ADMIN\\AgentScopeLab\\runs\\pi-injection-a9c8165fbf6b\\phase4-input\\sales.xlsx f3e3bd29cb5142a13801a80322084d79494a090bb0a4e9e2e42723bf803f2902 C:\\Users\\ADMIN\\AgentScopeLab\\runs\\pi-injection-a9c8165fbf6b\\workspace --cancellation-reporting"}
+{"event":"process_exited","time":"2026-11-18T11:20:42.4815020Z","pid":21832,"exit_code":0,"abnormal":false}
+{"event":"process_exited","time":"2026-11-18T11:20:42.4832708Z","pid":21824,"exit_code":0,"abnormal":false}
+{"event":"process_exited","time":"2026-11-18T11:20:42.4842755Z","pid":3216,"exit_code":0,"abnormal":false}
+{"event":"job_empty","time":"2026-11-18T11:20:42.5132788Z"}

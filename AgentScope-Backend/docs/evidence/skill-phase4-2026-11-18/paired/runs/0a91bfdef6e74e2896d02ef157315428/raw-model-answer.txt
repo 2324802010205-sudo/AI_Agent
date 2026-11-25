@@ -1,0 +1,9 @@
+The synthetic sales workbook has been processed and verified. All 48 records (including cancelled orders) were selected under the recorded rule, totaling 48 orders, 344,740,000 VND in revenue, and 95,980,000 VND in profit. The Excel report (`sales-report.xlsx`) has been created successfully from the accepted proposal.
+
+```json
+{
+  "orders": 48,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000
+}
+```

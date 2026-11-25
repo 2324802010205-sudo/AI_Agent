@@ -1,0 +1,21 @@
+### Kế hoạch xử lý
+1. Kiểm tra và trích xuất số liệu từ kết quả phân tích tệp dữ liệu bán hàng `synthetic_sales.xlsx`.
+2. Xác định các trường/cột tương ứng để lấy tổng số đơn hàng, doanh thu và lợi nhuận.
+3. Báo cáo kết quả quan sát và tên tệp báo cáo Excel đã tạo.
+
+---
+
+### Kết quả phân tích
+- **Báo cáo Excel đã tạo:** `bao-cao-99676afb.xlsx`
+- **Các cột và chỉ số sử dụng để tính toán:**
+  - **Tổng số đơn hàng:** Dựa trên số dòng dữ liệu (`row_count` qua cột `Ma_don`): **48** đơn hàng.
+  - **Tổng doanh thu:** Tính theo tổng (`sum`) của cột `Doanh_thu_VND`: **344.740.000 VND**.
+  - **Tổng lợi nhuận:** Tính theo tổng (`sum`) của cột `Loi_nhuan_VND`: **95.980.000 VND**.
+
+```json
+{
+  "orders": 48,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000
+}
+```

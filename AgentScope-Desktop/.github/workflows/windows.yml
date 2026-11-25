@@ -1,0 +1,58 @@
+name: Windows installer from independent projects
+on:
+  workflow_dispatch:
+    inputs:
+      backend_repository:
+        description: 'Backend repository (owner/name); no remote is assumed'
+        required: true
+        type: string
+      backend_ref:
+        description: Backend ref
+        default: main
+        type: string
+jobs:
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: workspace/AgentScope-Desktop
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ inputs.backend_repository }}
+          ref: ${{ inputs.backend_ref }}
+          path: workspace/AgentScope-Backend
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: workspace/AgentScope-Desktop/package-lock.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: workspace/AgentScope-Desktop/src-tauri
+      - name: Set up Backend independently
+        shell: pwsh
+        run: ./workspace/AgentScope-Backend/scripts/setup.ps1
+      - name: Set up Desktop independently
+        shell: pwsh
+        run: ./workspace/AgentScope-Desktop/scripts/setup.ps1
+      - name: Build installer and verify native spreadsheet/lifecycle workflow
+        shell: pwsh
+        working-directory: workspace/AgentScope-Desktop
+        run: |
+          ./scripts/build-windows.ps1
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          npm.cmd run test:native
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: AgentScope-Windows
+          path: |
+            workspace/AgentScope-Desktop/src-tauri/target/release/bundle/nsis/*.exe
+            workspace/AgentScope-Desktop/artifacts/

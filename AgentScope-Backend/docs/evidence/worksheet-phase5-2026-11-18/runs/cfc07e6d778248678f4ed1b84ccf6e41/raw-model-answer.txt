@@ -1,0 +1,16 @@
+The Excel report has been successfully generated and saved to [sales-report.xlsx](file:///C:/Users/ADMIN/AgentScopeLab/runs/pi-control-4efce5e16532/workspace/sales-report.xlsx).
+
+### Basis for the Warning Decision
+The workbook contains 10 cancelled orders (`Trang_thai` = "Đã hủy") out of 48 total orders. Because the number of cancelled orders (10) exceeds the threshold of 8, a cancellation warning is required.
+
+WARNING: 10 cancelled orders exceed 8.
+
+```json
+{
+  "orders": 48,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000,
+  "cancelled_orders": 10,
+  "cancellation_warning": true
+}
+```

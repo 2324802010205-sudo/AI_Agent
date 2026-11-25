@@ -1,0 +1,19 @@
+name: Windows backend artifact
+on: workflow_dispatch
+jobs:
+  sidecar:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - shell: pwsh
+        run: ./scripts/setup.ps1
+      - shell: pwsh
+        run: ./scripts/build-sidecar.ps1
+      - run: ./.venv/Scripts/python.exe scripts/check-sidecar.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: agentscope-backend-windows-x64
+          path: dist/agentscope-backend.exe

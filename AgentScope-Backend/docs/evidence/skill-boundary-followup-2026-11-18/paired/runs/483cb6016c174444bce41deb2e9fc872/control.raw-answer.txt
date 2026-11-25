@@ -1,0 +1,17 @@
+**Kế hoạch:**
+1. Tổng hợp số đơn hàng, tổng doanh thu và tổng lợi nhuận từ dữ liệu bảng tính đã quan sát.
+2. Trích xuất tên tệp báo cáo Excel đã được công cụ tạo và cung cấp kết quả theo định dạng JSON yêu cầu.
+
+**Kết quả:**
+- **Tên tệp báo cáo Excel:** `bao-cao-05f17a09.xlsx`
+- **Tổng số đơn hàng:** 48 (bao gồm 38 đơn hoàn thành và 10 đơn đã hủy)
+- **Tổng doanh thu:** 344.740.000 VND
+- **Tổng lợi nhuận:** 95.980.000 VND
+
+```json
+{
+  "orders": 48,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000
+}
+```

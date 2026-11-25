@@ -1,0 +1,14 @@
+```json
+{
+  "orders": 48,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000,
+  "cancelled_orders": 10,
+  "cancellation_warning": true
+}
+```
+
+WARNING: 10 cancelled orders exceed 8.
+
+### Basis for Warning Decision
+The workbook contains 48 total orders, among which 10 have a recorded status of "Đã hủy" (cancelled). Because the threshold for issuing a cancellation warning is 8, and 10 exceeds 8, the cancellation warning is required (`cancellation_warning: true`) and has been incorporated into the generated Excel report (`sales-report.xlsx`).

@@ -1,0 +1,22 @@
+### Kế hoạch thực hiện
+1. Tiếp nhận và phân tích 48 dòng dữ liệu đã quan sát từ bảng tính `synthetic_sales.xlsx` (sheet `Du_lieu`).
+2. Tổng hợp tổng số đơn hàng ghi nhận, tổng doanh thu (`Doanh_thu_VND`) và tổng lợi nhuận (`Loi_nhuan_VND`).
+3. Xuất kết quả tổng hợp và cung cấp đối tượng JSON theo định dạng yêu cầu.
+
+---
+
+### Kết quả tổng hợp dữ liệu bán hàng
+
+- **Tệp dữ liệu gốc**: `synthetic_sales.xlsx` (sheet: `Du_lieu`)
+- **Tệp báo cáo đã tạo**: `bao-cao-4d740538.xlsx`
+- **Tổng số đơn hàng**: 48 đơn (bao gồm 38 đơn hoàn thành và 10 đơn đã hủy)
+- **Tổng doanh thu**: 344.740.000 VND
+- **Tổng lợi nhuận**: 95.980.000 VND
+
+```json
+{
+  "orders": 48,
+  "revenue_vnd": 344740000,
+  "profit_vnd": 95980000
+}
+```
